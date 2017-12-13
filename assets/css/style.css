@@ -159,6 +159,18 @@ p{
     .right-banner{
         width: 250px;
     }
+
+    table, thead, tbody, th, td, tr { 
+        display: block;
+        padding-right:100px; 
+    }
+    .container-text-right{
+        margin-left: 50px;
+
+    }
+    .container-text-left{
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 640px){
@@ -173,5 +185,17 @@ p{
     }
     .right-banner{
         width: 200px;
+    }
+
+    table, thead, tbody, th, td, tr { 
+        display: block;
+        padding-right:150px;
+    }
+    .container-text-right{
+        margin-left: 0px;
+
+    }
+    .container-text-left{
+        margin-left: 0px;
     }
 }
