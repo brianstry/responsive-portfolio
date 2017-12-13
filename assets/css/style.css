@@ -1,0 +1,177 @@
+body {
+    background-image: url("../image/dust_scratches.png");
+}
+
+.top-banner{
+    height: 63px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    border-bottom: solid;
+    border-color: #cccccc;
+    width: 960px;
+}
+
+.name{
+    background-color: #4aaaa5;
+    float: left;
+    width: 150px;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 25px;
+    color: #ffffff;
+}
+
+.links-me{
+    float: right;
+    padding-right: 50px;
+    padding-top: 25px;
+    color: #777777;   
+}
+
+.link-spacing{
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.main-content{
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.main-section{
+    width: 650px;
+    float: left;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 6px;
+
+}
+
+.spacing{
+    padding: 10px;
+}
+
+.text-wrapping{
+    display:inline;
+}
+
+table{
+    width: 600px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-text-left{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 18px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.container-text-right{
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 18px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.right-banner{
+    width: 270px;
+    align-content: center;
+    margin-top: 6px;
+    float: right;
+    background-color: #ffffff;
+}
+
+.green-text{
+    color: #4aaaa5;
+}
+
+.center-stuff{
+text-align: center;
+}
+
+.green-text-center{
+    align-content: center;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+#bottom-banner-fixed {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    background: #666666;
+    width: 100%;
+    border-top-style:solid;
+    border-color: #4aaaa5;
+    border-width: 3px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom: Solid;
+    border-color: #cccccc;
+    text-decoration: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px){
+/* as is. */
+}
+
+@media screen and (max-width: 768px){
+    .top-banner{
+        height: 50px;
+        width: 650px;
+    }
+    .name{
+        height: 37px;
+    }
+    .main-content{
+        width: 650px;
+    }
+    .main-section{
+        width: 350px;
+    }
+    .right-banner{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .top-banner{
+        width: 500px;
+    }
+    .main-content{
+        width: 500px;
+    }
+    .main-section{
+        width: 200px;
+    }
+    .right-banner{
+        width: 200px;
+    }
+}
